@@ -7,6 +7,9 @@ import React from "react";
 
 const NavBar = async () => {
 	const session = await auth();
+
+  
+  
 	return (
 		<header className="px-5 py-3 bg-white shadow-sm font-work-sans">
 			<div className="flex justify-between items-center">
